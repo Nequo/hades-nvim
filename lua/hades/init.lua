@@ -7,9 +7,10 @@ vim.o["termguicolors"] = true
 local c = require('hades.colors')
 local hl = vim.api.nvim_set_hl
 
+
 hl(0, "ColorColumn", {fg = c.none, bg = c.base01})
 hl(0, "Cursor", {fg = c.base00, bg = c.base04})
-hl(0, "CursorLine", {fg = c.none, bg = c.base00})
+hl(0, "CursorLine", {fg = c.none, bg = c.base01})
 hl(0, "CursorColumn", {fg = c.none, bg = c.base01})
 hl(0, "CursorLineNr", {fg = c.base04, bg = c.none})
 hl(0, "QuickFixLine", {fg = c.none, bg = c.base01})
@@ -32,8 +33,8 @@ hl(0, "Folded", {fg = c.base02, bg = c.base01})
 hl(0, "FoldColumn", {fg = c.base01, bg = c.base00})
 hl(0, "SignColumn", {fg = c.base01, bg = c.base00})
 hl(0, "MatchParen", {fg = c.none, bg = c.base02, underline = true})
-hl(0, "IncSearch", {fg = c.base01, bg = c.base04})
-hl(0, "Search", {fg = c.base01, bg = c.base04})
+hl(0, "IncSearch", {fg = c.base01, bg = c.yellow})
+hl(0, "Search", {fg = c.base01, bg = c.cyan})
 
 
 -- LSP
@@ -51,7 +52,7 @@ hl(0, "Boolean", {fg = c.base04, bg = c.none})
 hl(0, "Character", {fg = c.base04, bg = c.none})
 hl(0, "Comment", {fg = c.purple, bg = c.none, italic = true})
 hl(0, "Conceal", {fg = c.none, bg = c.none})
-hl(0, "Conditional", {fg = c.base04, bg = c.none})
+hl(0, "Conditional", {fg = c.blue, bg = c.none})
 hl(0, "Constant", {fg = c.base04, bg = c.none})
 hl(0, "Decorator", {fg = c.base04, bg = c.none})
 hl(0, "Define", {fg = c.base04, bg = c.none})
