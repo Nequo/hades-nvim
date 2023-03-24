@@ -4,7 +4,16 @@ end
 vim.g["colors_name"] = "hades"
 vim.o["termguicolors"] = true
 
-local c = require('hades.colors')
+local p = require('hades.colors')
+local isDark = vim.o.background == 'dark'
+
+local c = ''
+if isDark then
+    c = p.dark
+else
+    c = p.light
+end
+
 local hl = vim.api.nvim_set_hl
 
 

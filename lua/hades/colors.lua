@@ -1,5 +1,5 @@
 local colors = {}
-colors = {
+colors.dark = {
     base00 = '#1C1C1C',
     base01 = '#262626',
     base02 = '#303030',
@@ -14,8 +14,35 @@ colors = {
     purple = '#8787AF',
     orange = '#ff875f',
     gold   = '#FAC03B',
-    yellow = '#ffd7af',
+    beige  = '#ffd7af',
+    yellow = '#FFFFAF',
     red    = '#AF5F5F',
+
+    none               = 'NONE',
+    Selection          = '#264F78',
+
+    DiffRedDark        = '#4B1818',
+    DiffRedLight       = '#6F1313',
+    DiffGreenDark      = '#373D29',
+    DiffGreenLight     = '#4B5632',
+
+}
+colors.light = {
+    base00 = '#EEEEEE',
+    base01 = '#E4E4E4',
+    base02 = '#DADADA',
+    base03 = '#BCBCBC',
+    base04 = '#1C1C1C',
+    base05 = '#8a8a8a',
+    base06 = '#000000',
+    cyan   = '#5FAFAF',
+    blue   = '#005FAF',
+    green  = '#008700',
+    purple = '#8787D7',
+    orange = '#ff875f',
+    beige  = '#AF5F00',
+    yellow = '#c19d55',
+    red    = '#D75F5F',
 
     none               = 'NONE',
     Selection          = '#264F78',
