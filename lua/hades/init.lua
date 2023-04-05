@@ -138,7 +138,6 @@ hl(0, "@repeat", {fg = c.blue, bg = c.none})
 -- hl(0, "@exception", {fg = c.base04, bg = c.none})
 -- hl(0, "@type", {link = "Type"})
 -- hl(0, "@type.builtin", {link = "Type"})
--- hl(0, "@attribute", {fg = c.base04, bg = c.none})
 -- hl(0, "@field", {fg = c.base04, bg = c.none})
 -- hl(0, "@property", {fg = c.base04, bg = c.none})
 -- hl(0, "@variable", {fg = c.base04, bg = c.none})
@@ -161,6 +160,10 @@ hl(0, "@text.reference", {fg = c.green, bg = c.none})
 -- hl(0, "@tag.attribute", {fg = c.base04, bg = c.none})
 -- hl(0, "@tag.delimiter", {fg = c.base04, bg = c.none})
 -- hl(0, "@reference", {fg = c.base04, bg = c.none})
+
+hl(0, "@type.qualifier.zig", {fg = c.blue, bg = c.none})
+hl(0, "@attribute.zig", {fg = c.blue, bg = c.none})
+hl(0, "@exception.zig", {fg = c.red, bg = c.none})
 
 -- Semantic highlights
 -- hl(0, "@lsp.type.property", {fg = c.base04, bg = c.none})
